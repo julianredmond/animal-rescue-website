@@ -1,7 +1,23 @@
-ul, h1 {
+ul, h1, h2, .catnames {
   font-family: 'Comfortaa', cursive;
 }
 
 header, footer {
-  background-color: #20a0f0;
+  background-color: #99E6FF;
+}
+
+.logo {
+  max-width: 4em;
+}
+
+.logo:hover {
+  color: black;
+}
+
+.buttons {
+  color: black;
+}
+
+.hovers:hover {
+  background-color: #4D99FF;
 }
