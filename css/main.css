@@ -21,3 +21,20 @@ header, footer {
 .hovers:hover {
   background-color: #4D99FF;
 }
+
+.footlinks:hover {
+  color: #4D99FF;
+}
+
+.btn {
+  color: #000;
+  background-color: #99E6FF;
+  border-radius: 7px;
+  border: none;
+  font-family: 'Comfortaa', cursive;
+}
+
+.btn:hover {
+  background-color: #4D99FF;
+  color: #000;
+}
