@@ -1,5 +1,5 @@
 ul, h1, h2, .catnames {
-  font-family: Comfortaa, cursive;
+  font-family: Comfortaa, sans-serif;
 }
 
 header, footer {
@@ -31,7 +31,7 @@ header, footer {
   background-color: #99e6ff;
   border-radius: 7px;
   border: none;
-  font-family: Comfortaa, cursive;
+  font-family: Comfortaa, sans-serif;
 }
 
 .btn:hover {
