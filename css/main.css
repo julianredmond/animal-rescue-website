@@ -1,9 +1,9 @@
 ul, h1, h2, .catnames {
-  font-family: 'Comfortaa', cursive;
+  font-family: Comfortaa, cursive;
 }
 
 header, footer {
-  background-color: #99E6FF;
+  background-color: #99e6ff;
 }
 
 .logo {
@@ -19,22 +19,22 @@ header, footer {
 }
 
 .hovers:hover {
-  background-color: #4D99FF;
+  background-color: #4d99ff;
 }
 
 .footlinks:hover {
-  color: #4D99FF;
+  color: #4d99ff;
 }
 
 .btn {
   color: #000;
-  background-color: #99E6FF;
+  background-color: #99e6ff;
   border-radius: 7px;
   border: none;
-  font-family: 'Comfortaa', cursive;
+  font-family: Comfortaa, cursive;
 }
 
 .btn:hover {
-  background-color: #4D99FF;
+  background-color: #4d99ff;
   color: #000;
 }
