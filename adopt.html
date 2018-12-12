@@ -57,52 +57,64 @@
 
       <h2 class="text-upper giga center-flow">Adoption Form</h2>
 
-      <label for="first-name">First Name:</label>
-      <input id="first-name" name="info" type="text" required>
+      <div class="grid">
 
-      <label for="last-name">Last Name:</label>
-      <input id="last-name" type="text" required>
+        <div class="gutter-1-2 unit xs-1 s-1 m-1 l-1-2 xl-1-2">
 
-      <label for="province">Province:</label>
-      <input id="province" list="province-list">
-      <datalist id="province-list">
-        <option value="Ontario"></option>
-        <option value="New Brunswick"></option>
-        <option value="Quebec"></option>
-        <option value="Manitoba"></option>
-        <option value="Winnipeg"></option>
-        <option value="Nunavut"></option>
-        <option value="British Columbia"></option>
-        <option value="Alberta"></option>
-        <option value="Nova Scotia"></option>
-        <option value="Saskatchewan"></option>
-        <option value="Newfoundland and Labrador"></option>
-        <option value="Prince Edward Island"></option>
-        <option value="Yukon"></option>
-        <option value="Northwest Territories"></option>
-      </datalist>
+          <label for="first-name">First Name:</label>
+          <input class="push-1-2" id="first-name" name="info" type="text" required>
 
-      <label for="email">Email:</label>
-      <input id="email" type="email">
+          <label for="last-name">Last Name:</label>
+          <input class="push-1-2" id="last-name" type="text" required>
 
-      <label for="housing">Housing:</label>
-      <select id="housing">
-        <option>Rental Unit</option>
-        <option>Condo</option>
-        <option>House</option>
-      </select>
+          <label for="province">Province:</label>
+          <input class="push-1-2" id="province" list="province-list">
+          <datalist id="province-list">
+            <option value="Ontario"></option>
+            <option value="New Brunswick"></option>
+            <option value="Quebec"></option>
+            <option value="Manitoba"></option>
+            <option value="Winnipeg"></option>
+            <option value="Nunavut"></option>
+            <option value="British Columbia"></option>
+            <option value="Alberta"></option>
+            <option value="Nova Scotia"></option>
+            <option value="Saskatchewan"></option>
+            <option value="Newfoundland and Labrador"></option>
+            <option value="Prince Edward Island"></option>
+            <option value="Yukon"></option>
+            <option value="Northwest Territories"></option>
+          </datalist>
 
-      <label for="income">Yearly Income:</label>
-      <select class="push" id="income">
-        <option>$0 - $10,000</option>
-        <option>$10,000 - $20,000</option>
-        <option>$20,000 - $40,000</option>
-        <option>$40,000 - Up</option>
-      </select>
+        </div>
 
-      <a class="btn bold push" href="adopt.html">Register</a>
+        <div class="gutter-1-2 unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+
+          <label for="email">Email:</label>
+          <input class="push-1-2" id="email" type="email">
+
+          <label for="housing">Housing:</label>
+          <select class="push-1-2" id="housing">
+            <option>Rental Unit</option>
+            <option>Condo</option>
+            <option>House</option>
+          </select>
+
+          <label for="income">Yearly Income:</label>
+          <select class="push" id="income">
+            <option>$0 - $10,000</option>
+            <option>$10,000 - $20,000</option>
+            <option>$20,000 - $40,000</option>
+            <option>$40,000 - Up</option>
+          </select>
+
+        </div>
+
+      </div>
 
     </form>
+
+    <a class="btn bold push" href="adopt.html">Register</a>
 
   </main>
 

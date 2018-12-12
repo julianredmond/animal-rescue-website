@@ -2,8 +2,14 @@ ul, h1, h2, .catnames {
   font-family: Comfortaa, sans-serif;
 }
 
-header, footer {
+header {
   background-color: #99e6ff;
+  border-bottom: 5px solid #4d99ff;
+}
+
+footer {
+  background-color: #99e6ff;
+  border-top: 5px solid #4d99ff;
 }
 
 .logo {
